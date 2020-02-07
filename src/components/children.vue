@@ -1,6 +1,6 @@
 <template>
   <ul>
-    <node :node="root"></node>
+    <node v-for="child in children" :node="child" />
   </ul>
 </template>
 
@@ -8,12 +8,12 @@
   import node from "./node.vue"
 
   export default {
-    props: ["root"],
+    props: ["children"],
     components: {
       node
     }
   }
 </script>
 
-<style scoped>
+<style>
 </style>
