@@ -1,0 +1,21 @@
+{
+  "name": "@ken_yuan/pure-tree",
+  "version": "0.1.1",
+  "private": false,
+  "main": "./dist/pure-tree.common.js",
+  "files": ["dist/*"],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build-bundle": "vue-cli-service build --target lib --name pure-tree ./src/components/pure-tree.vue"
+  },
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-service": "^3.8.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
