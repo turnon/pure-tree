@@ -1,6 +1,7 @@
 {
   "name": "@ken_yuan/pure-tree",
-  "version": "0.1.2",
+  "version": "0.1.3",
+  "description": "A Vue tree component using pure css to implement fold and expand",
   "private": false,
   "main": "./dist/pure-tree.common.js",
   "files": ["dist/*"],
@@ -17,5 +18,14 @@
     "@vue/cli-plugin-babel": "^3.8.0",
     "@vue/cli-service": "^3.8.0",
     "vue-template-compiler": "^2.6.10"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "tree"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/turnon/pure-tree.git"
   }
 }
