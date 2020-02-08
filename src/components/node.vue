@@ -3,16 +3,16 @@
     <input type="checkbox" :id="checkbox_id" />
     <label :for="checkbox_id" />
     <a>{{ node.value }}</a>
-    <children v-if="node.children" :children="node.children" />
+    <ul v-if="node.children">
+      <node v-for="child in node.children" :node="child" />
+    </ul>
   </li>
 </template>
 
 <script>
   export default {
+    name: "node",
     props: ["node"],
-    components: {
-      children: () => import("./children.vue")
-    },
     computed: {
       checkbox_id() {
         return `pure-tree-${this.node.key}`
