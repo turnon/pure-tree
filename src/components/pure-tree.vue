@@ -1,5 +1,5 @@
 <template>
-  <ul>
+  <ul class="pure-tree-root">
     <node :node="root"></node>
   </ul>
 </template>
@@ -16,4 +16,8 @@
 </script>
 
 <style scoped>
+  .pure-tree-root {
+    margin: 0;
+    padding: 0;
+  }
 </style>
