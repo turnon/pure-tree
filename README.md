@@ -1,29 +1,7 @@
-# default
+# pure-tree
 
-## Project setup
-```
-npm install
-```
+A Vue tree component using pure css to implement fold and expand
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Usage
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Run `npm install @ken_yuan/pure-tree` and check `src/App.vue` in this repo for how to use
